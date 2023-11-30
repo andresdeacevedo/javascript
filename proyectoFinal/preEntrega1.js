@@ -17,7 +17,7 @@ while (listo !== "SI" && listo !== "NO") {
 if (listo === "SI") {
     alert("Deberás responder V o F.");
 
-    // Inicializamos la variable para contar aciertos
+    // Inicializamos la variable para contar aciertos.
     let cantidadDeAciertos = 0;
 
     for (let i = 1; i <= 3; i++) {
@@ -54,7 +54,7 @@ if (listo === "SI") {
         }
     }
 
-    // Determinamos si ganó o perdió
+    // Determinamos si ganó o perdió.
     if (cantidadDeAciertos >= 2) {
         alert("¡Ganaste! Tienes " + cantidadDeAciertos + " aciertos.");
     } else {
